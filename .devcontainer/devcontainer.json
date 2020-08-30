@@ -21,6 +21,10 @@
 		"mhutchie.git-graph",
 		"kriegalex.vscode-cudacpp",
 		"ms-azuretools.vscode-docker"
+	],
+
+	"runArgs": [ 
+		"--gpus=all"
 	]
 	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
